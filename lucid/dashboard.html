@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card</title>
+	<style type="text/css">
+		h3{
+			margin-left: 10px;
+		}
+		.card-parent {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.card{
+			flex-grow: 1;
+			max-width: 20%;
+			height: 100px;
+
+			background-color: white;
+			border-left: 8px solid;
+			border-radius: 8px;
+			padding: 10px;
+			margin: 10px;
+			box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+			transition: 0.3s;
+		}
+		.card:hover{
+			box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+		}
+		.card-success {
+			font-weight: bold;
+		}
+		p.card-title{
+			color: gray;
+			text-transform: uppercase;
+		}
+		p.card-detail{
+			text-align: right;
+			font-size: 3ch;
+		}
+
+		/*center visit cards*/
+		.card-center-visits>.card {
+			border-left-color: red;
+		}
+		.card-center-visits>.card>p.card-detail {
+			color: red;
+		}
+		
+		/*home collection cards*/
+		.card-home-collection>.card {
+			border-left-color: green;
+		}
+		.card-home-collection>.card>p.card-detail {
+			color: green;
+		}
+
+		/*covid cards*/
+		.card-covid>.card {
+			border-left-color: purple;
+		}
+		.card-covid>.card>p.card-detail {
+			color: purple;
+		}
+
+		/*ads report cards*/
+		.card-ads-report>.card {
+			border-left-color: blue;
+		}
+		.card-ads-report>.card>p.card-detail {
+			color: blue;
+		}
+
+	</style>
+
+</head>
+<body style="background-color: #ededed">
+	<h3>Center Visits</h3>
+	<div class="card-parent card-center-visits">
+		<div class="card">
+			<p class="card-title">Appointment Booking</p>
+			<p class="card-detail">59,000</p>
+		</div>
+		<div class="card">
+			<p class="card-title">Appointment Booking Confirmed</p>
+			<p class="card-detail card-success">59,000</p>
+		</div>
+	</div>
+
+	<h3>Home Collection</h3>
+	<div class="card-parent card-home-collection">
+		<div class="card">
+			<p class="card-title">Booking</p>
+			<p class="card-detail">59,000</p>
+		</div>
+		<div class="card">
+			<p class="card-title">Booking Confirmed</p>
+			<p class="card-detail card-success">59,000</p>
+		</div>
+	</div>
+
+	<h3>COVID-19 Test</h3>
+	<div class="card-parent card-covid">
+		<div class="card">
+			<p class="card-title">Covid-19 Test</p>
+			<p class="card-detail">59,000</p>
+		</div>
+		<div class="card">
+			<p class="card-title">Covid-19 Test Confirmed</p>
+			<p class="card-detail card-success">59,000</p>
+		</div>
+	</div>
+
+	<h3>Ads Reports</h3>		
+	<div class="card-parent card-ads-report">
+		<div class="card">
+			<p class="card-title">Total Impressions</p>
+			<p class="card-detail">59,000</p>
+		</div>
+		<div class="card">
+			<p class="card-title">Total Clicks</p>
+			<p class="card-detail">59,000</p>
+		</div>
+		<div class="card">
+			<p class="card-title">Total CPC</p>
+			<p class="card-detail">59,000</p>
+		</div>
+		<div class="card">
+			<p class="card-title">Total COST</p>
+			<p class="card-detail card-success">59,000</p>
+		</div>
+	</div>
+
+</body>
+</html>
