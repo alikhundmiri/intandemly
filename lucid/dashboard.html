@@ -14,7 +14,7 @@
 		.card{
 			flex-grow: 1;
 			max-width: 20%;
-			height: 100px;
+			height: 100%;
 
 			background-color: white;
 			border-left: 8px solid;
@@ -24,6 +24,7 @@
 			box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 			transition: 0.3s;
 		}
+
 		.card:hover{
 			box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 		}
@@ -71,10 +72,66 @@
 			color: blue;
 		}
 
+		/*ads report cards*/
+		.card-search-report>.card {
+			border-left-color: skyblue;
+		}
+		.card-search-report>.card>p.card-detail {
+			color: skyblue;
+		}
 	</style>
 
+	<script type="text/javascript">
+		function CopyToClipboard(containerid) {
+			if (document.selection) {
+				var range = document.body.createTextRange();
+				range.moveToElementText(document.getElementById(containerid));
+				range.select().createTextRange();
+				document.execCommand("copy");
+			} else if (window.getSelection) {
+				var range = document.createRange();
+				range.selectNode(document.getElementById(containerid));
+				window.getSelection().addRange(range);
+				document.execCommand("copy");
+				alert("Text has been copied, now paste in the text-area")
+			}
+		}
+
+		function copyReportToClipBoard(daily_report) {
+			if (document.selection) {
+				var range = document.body.createTextRange();
+				range.moveToElementText(document.getElementById(daily_report));
+				range.select().createTextRange();
+				document.execCommand('copy');
+				document.getElementById('copy_search_report_button').innerHTML = 'Copied!'
+
+			} else if (window.getSelection) {
+				var range = document.createRange();
+				range.selectNode(document.getElementById(daily_report));
+				window.getSelection().addRange(range);
+				document.execCommand('copy');
+				document.getElementById('copy_search_report_button').innerHTML = 'Copied!'
+			}
+		}
+	</script>
 </head>
 <body style="background-color: #ededed">
+	<h3>Report</h3>
+	<div class="card-parent card-search-report">
+		<div class="card">
+			<div id="search-report">
+				<p class="card-title">19 November 2020</p>
+				<p>
+					<b>Appointment Booking</b>: 6<br>
+					<b>Home Collection booking</b>: 15<br>
+					<b>COVID-19 bookings</b>: 20
+				</p>
+				<p><b>Total</b>: 41</p>
+			</div>
+			<a href="#" id="copy_search_report_button" onclick="copyReportToClipBoard('search-report')">Copy</a>
+
+		</div>
+	</div>
 	<h3>Center Visits</h3>
 	<div class="card-parent card-center-visits">
 		<div class="card">
