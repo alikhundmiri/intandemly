@@ -16,11 +16,6 @@
 		<p>[[DESCRIPTION]]</p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:paragraph -->
-		[[BOOKING_FORM]]
-		<!-- /wp:paragraph -->
-
-
 		<!-- wp:html -->
 		<style>.at-about-fab { z-index: 999999; position: fixed; right: 20px; bottom: 20px; display: flex; align-items: center; flex-direction: row; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .at-about-fab:hover { transform: translateX(0%); } .at-about-fab:hover .at-about-fab__meta { opacity: 1; } .at-about-fab__thumbnail { position: absolute; top: 50%; left: -78px; background: #eeeeee; width: 68px; height: 68px; border: 1px solid #063c7f; border-radius: 100%; padding: 4px; box-sizing: border-box; transform: translateY(-100%); overflow: hidden; cursor: pointer; } .at-about-fab__thumbnail img { display: block; width: 100%; border-radius: 100%; }</style><div class="at-about-fab"> <div class="at-about-fab__thumbnail"> <a href="https://api.whatsapp.com/send?phone=918886890063&amp;text=I would like to book an Appointment for [[HEADING]] Test. Can you start the process?"> <img alt="Lucid Diagnosics on Whatsapp: 00918886890063" src="https://www.luciddiagnostics.in/wp-content/uploads/2021/02/WhatsApp_Logo_1-3.png"> </a> </div> </div><script></script>
 		<!-- /wp:html -->
@@ -88,7 +83,7 @@
 
 	<wp:postmeta>
 		<wp:meta_key><![CDATA[_available_locations]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_5eba45426ef80]]></wp:meta_value>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 	</wp:postmeta>
 	<wp:postmeta>
 		<wp:meta_key><![CDATA[price]]></wp:meta_key>
@@ -96,7 +91,7 @@
 	</wp:postmeta>
 	<wp:postmeta>
 		<wp:meta_key><![CDATA[_price]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_5ef0f220af057]]></wp:meta_value>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 	</wp:postmeta>
 	<wp:postmeta>
 		<wp:meta_key><![CDATA[carousel_data]]></wp:meta_key>
@@ -104,7 +99,7 @@
 	</wp:postmeta>
 	<wp:postmeta>
 		<wp:meta_key><![CDATA[_carousel_data]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_5ef0e495721d9]]></wp:meta_value>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 	</wp:postmeta>
 	<wp:postmeta>
 		<wp:meta_key><![CDATA[old_price]]></wp:meta_key>
@@ -112,7 +107,7 @@
 	</wp:postmeta>
 	<wp:postmeta>
 		<wp:meta_key><![CDATA[_old_price]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_5ef0f1b498b8c]]></wp:meta_value>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 	</wp:postmeta>
 	<wp:postmeta>
 		<wp:meta_key><![CDATA[banner_image]]></wp:meta_key>
@@ -120,7 +115,7 @@
 	</wp:postmeta>
 	<wp:postmeta>
 		<wp:meta_key><![CDATA[_banner_image]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_5ef4ea4ad7431]]></wp:meta_value>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 	</wp:postmeta>
 
 </item>
