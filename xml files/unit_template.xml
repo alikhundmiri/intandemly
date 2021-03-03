@@ -46,7 +46,7 @@
 	<wp:post_type><![CDATA[post]]></wp:post_type>
 	<wp:post_password><![CDATA[]]></wp:post_password>
 	<wp:is_sticky>0</wp:is_sticky>
-	<category domain="category" nicename="homecollection"><![CDATA[Home Collection]]></category>
+	<category domain="category" nicename="diagnostics"><![CDATA[Diagnostics]]></category>
 	
 	<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
